@@ -1,0 +1,4 @@
+LIBRARY "hello_world.dll"
+
+EXPORTS
+	SjGetInterface

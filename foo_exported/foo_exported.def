@@ -1,0 +1,4 @@
+LIBRARY "foo_exported.dll"
+
+EXPORTS
+	SjGetInterface
