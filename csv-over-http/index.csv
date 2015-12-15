@@ -1,0 +1,9 @@
+AlbumId, TrackId, Artist,   Album,   Title,   Year
+1,       1,       Artist A, Album A, Running, 2005
+1,       2,       Artist A, Album A, Higher,  2015
+1,       3,       Artist A, Album A, Lower,   2015
+2,       4,       Band B,   Best Of, 110 Hz,  2015
+2,       5,       Band B,   Best Of, 220 Hz,  2015
+2,       6,       Band B,   Best Of, 440 Hz,  2015
+2,       7,       Band B,   Best Of, 880 Hz,  2015
+

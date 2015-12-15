@@ -1,0 +1,12 @@
+; HTTP-CONFIGURATION FILE FOR SILVERJUKE AND COMPATIBLE APPLICATIONS
+;
+; For automatic HTTP configuration, edit this file and copy it to the used root
+; directory as "music-lib-cfg.txt". For further information, please refer to
+; docs/csv-over-http.md in the Silverjuke repository.
+
+access-type       = csv-over-http
+csv-file          = index.csv
+csv-skip-first-row= 1
+csv-columns       = <AlbumId>,<TrackId>,<Artist>,<Album>,<Title>,<Year>
+img-files         = cover/file<AlbumId>.jpg
+music-files       = audio/file<TrackId>.ogg
